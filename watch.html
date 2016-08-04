@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The RealReal</title>
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/custom.css" rel="stylesheet">
+
+
+<link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.css">
+          
+<script src="js/bootstrap.js"></script>
+<script src="js/jquery-1.11.3.min.js"></script>
+
+<script> 
+expanded = false
+$(document).ready(function() {
+	
+	$( ".menu a" ).hover(function() {
+  		$( ".megaMenu" ).slideToggle( "slow", function() {
+			
+    // Animation complete.
+  		});
+  
+  		if(expanded) {
+			$( ".megaMenu").delay(0).toggleClass("expanded");
+		}
+		else {
+			$( ".megaMenu").delay(0).toggleClass("expanded");
+		}
+		expanded = !expanded;
+		
+			
+			/*
+ 		 $( ".button2, .close" ).toggle(0, function() {
+    // Animation complete.
+  		});
+		*/
+		
+		$row = $($(this).parents(".row")[0]);
+		$row.toggleClass("marginBottomFix");
+		
+});
+	
+});
+</script>
+    
+</head>
+<body>
+
+<div class="container">
+
+<div class="col-xs-12 nav2">
+
+<div class="col-xs-2 logo2"><img src="images/logo.png"></div>
+
+<div class="col-xs-10">
+<div class="menu2">
+<ul>
+<li><a href="#">New Arrivals</a></li>
+<li><a href="#">Women</a></li>
+<li><a href="#">Men</a></li>
+<li><a href="#">Jewelry &amp; Watches</a></li>
+<li><a href="#">Art &amp; Home</a></li>
+<li><a href="#">Sale</a></li>
+<li><div class="consign2">Consign</div></li>
+<li><img src="images/search.png" style="float: left; margin-top: 37px; padding-left: 40px;"></li>
+<li><img src="images/share.png" style="float: right; margin-top: 37px; padding-left: 100px; display: inline; position: absolute;"></li>
+</ul>
+</div><!--End Menu-->
+</div><!--End col-->
+
+</div><!--End Nav-->
+
+
+<div class="col-xs-12" >
+
+<div class="megaMenu" style="display: none;">
+
+<img src="images/womensMenu.png">
+
+</div>
+</div>
+
+
+<div class="col-xs-12">
+
+<div class="breadcrumbs">
+<p>Men</p> <div class="delimiter">|</div> <p>Fine Watches</p> <div class="delimiter">|</div> <div class="active"><p>Rolex Oyster Perpetual Yacht-Master II Watch</p></div>
+
+</div>
+</div><!--End Breadcrumbs-->
+
+
+<!--------------------------------Start Product------------------------------->
+
+<div class="col-xs-6">
+<div id="gallery">
+    <header>
+
+  <nav class="hide">
+    <ul id="menu">
+      <li data-menuanchor="firstSection">
+        <a href="#firstSection" title="First Section">First Section</a>
+      </li>
+      <li data-menuanchor="secondSection">
+        <a href="#secondSection" title="Second Section">Second Section</a>
+      </li>
+      <li data-menuanchor="thirdSection">
+        <a href="#thirdSection" title="Second Section">Third Section</a>
+      </li>
+      <li data-menuanchor="fourthSection">
+        <a href="#fourthSection" title="Fourth Section">Fourth Section</a>
+      </li>
+      <li data-menuanchor="fifthSection">
+        <a href="#fifthSection" title="First Slide">First Slide</a>
+      </li>
+      <li data-menuanchor="fifthSection/1">
+        <a href="#fifthSection/1" title="Second Slide">Second Slide</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<div id="fullpage">
+  <section class="vertical-scrolling">
+    <img src="images/watch1.jpg" style="width: 500px">
+    <div class="scroll-icon">
+      <img src="images/scroll.png" style="margin-top: -100px; margin-left: -50px;">
+     
+    </div>
+  </section>
+  <section class="vertical-scrolling">
+    <img src="images/watch2.jpg" style="width: 500px">
+  </section>
+  <section class="vertical-scrolling">
+    <img src="images/watch3.jpg" style="width: 500px">
+  </section>
+  <section class="vertical-scrolling">
+    <img src="images/watch4.jpg" style="width: 500px">
+  </section>
+  <section class="vertical-scrolling">
+    <img src="images/watch5.jpg" style="width: 500px">
+  </section>
+
+
+</div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.min.js'></script>
+
+        <script src="js/index.js"></script>
+</div>
+</div><!--End Gallery column-->
+
+<div class="col-xs-6">
+
+<div class="productInfo">
+
+<img src="images/watchDescription.png">
+
+</div><!--End productInfo-->
+</div>
+
+<div class="col-xs-12">
+
+<div class="footer">
+<img src="images.footer.png">
+</div>
+
+</div>
+
+</div><!--End First Container-->
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-1.11.3.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

@@ -59,6 +59,12 @@ body {
 	background-color: #f9f9f9;
 }
 
+.nav2 {
+	height: 100px;
+	text-align: center;
+	border-bottom: 1px solid #eee;
+}
+
 .welcome {
 	position: relative;
 	padding-left: 30px;
@@ -108,9 +114,39 @@ body {
 	color: #000;
 }
 
+.menu2 {
+	display: inline;
+	float: left;
+	width: 900px;
+	text-align: center;
+	padding-left: 20px;
+	}
+
+.menu2 a {
+	color: #333;
+	float: left;
+	display: inline;
+	text-align: left;
+	margin-right: 40px;
+	text-transform: uppercase;
+	padding-top: 40px;
+}
+
+.logo2 {
+	float: left;
+	display: inline;
+	padding-top: 20px;
+}
 
 .consign {
 	color: #aa2222;
+}
+
+.consign2 {
+	color: #aa2222;
+	padding-top: 40px;
+	text-transform: uppercase;
+	float: left;
 }
 
 .breadcrumbs {
